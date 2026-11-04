@@ -4,7 +4,7 @@
 
         if (typeof widget === "undefined") {
             console.log("Waiting for widget object...");
-            setTimeout(waitForWidget, 500);
+          // setTimeout(waitForWidget, 500);
             return;
         }
 
